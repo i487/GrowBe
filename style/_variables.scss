@@ -1,0 +1,62 @@
+$btn-font-size: 12px;
+
+a{
+    text-decoration: none;
+}
+
+.nav-items{
+    font-size: 14px;
+    line-height: 16px;
+    color: #888888;
+    transition: 0.5s;
+
+    &:hover{
+        color: #F25822;
+        border-bottom: 1px solid #F25822;
+    }
+}
+.main-title{
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+}
+.main-text{
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+}
+.title{
+    font-size: 45px;
+    line-height: 53px;
+    color: #000000;
+}
+.text{
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+}
+.title-sm{
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.text-sm{
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+}
+.btn{
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding: 16px 30px;
+    background: #F25822;
+    border-radius: 50px;
+    transition: 0.5s;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    &:hover{
+        box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    }
+}
