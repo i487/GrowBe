@@ -4,17 +4,7 @@ a{
     text-decoration: none;
 }
 
-.nav-items{
-    font-size: 14px;
-    line-height: 16px;
-    color: #888888;
-    transition: 0.5s;
 
-    &:hover{
-        color: #F25822;
-        border-bottom: 1px solid #F25822;
-    }
-}
 .main-title{
     font-size: 60px;
     line-height: 70px;
@@ -60,3 +50,7 @@ a{
         box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
     }
 }
+.unactive {
+    opacity: 0.5;
+}
+
